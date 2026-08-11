@@ -103,15 +103,17 @@ npm run build
 | `MODEL_TIMEOUT_SECONDS` | `60` | 外部模型超时，超时后自动降级 |
 | `MODEL_MAX_TOKENS` | `6000` | 单次 Agent 响应上限 |
 
-更多材料：[面试项目报告](docs/interview-report.md)、[演示脚本](docs/demo-script.md)、[局限](docs/limitations.md)、[部署准备](docs/deployment.md)。
+更多材料：[面试项目报告](docs/interview-report.md)、[现场演示脚本](docs/demo-script.md)、[90 秒录屏台本](docs/video-script.md)、[局限](docs/limitations.md)、[部署准备](docs/deployment.md)。
 
 ## 在线演示
 
-- 产品 Demo：<https://duideshang-demo.vercel.app>
-- API 健康检查：<https://duideshang-api.vercel.app/health>
+- 产品 Demo：<https://armaygooser.site>
+- API 健康检查：<https://api.armaygooser.site/health>
+
+![对得上需求澄清与透明报价工作台](docs/assets/demo-overview.png)
 
 线上版本默认使用 `local-demo`，不依赖模型密钥，适合面试现场稳定演示。
 
 ### 中国大陆访问说明
 
-本 Demo 托管于 Vercel。受中国大陆跨境网络链路影响，部分网络环境下可能出现加载缓慢或无法访问。面试现场同时准备本地运行版本；建议另备一份 60–90 秒演示录屏作为网络降级方案。
+自定义域名仍由 Vercel 托管。受中国大陆跨境网络链路影响，部分网络环境下仍可能出现加载缓慢或无法访问。面试现场同时准备本地运行版本；建议另备一份 60–90 秒演示录屏作为网络降级方案。

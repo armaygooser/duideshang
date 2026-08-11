@@ -177,8 +177,8 @@ AI 被用于四类工作：
 
 > 我能够进入真实工作流，持续质疑最初的问题定义，找到信息丢失和责任模糊的位置，再把 AI、确定性程序和人工确认组合成一个可运行、可解释、可验收的最小闭环。
 
-在线演示：<https://duideshang-demo.vercel.app>
+在线演示：<https://armaygooser.site>
 
-API 健康检查：<https://duideshang-api.vercel.app/health>
+API 健康检查：<https://api.armaygooser.site/health>
 
-访问说明：本 Demo 托管于 Vercel。受中国大陆跨境网络链路影响，部分网络环境下可能出现加载缓慢或无法访问；面试现场同时准备本地运行版本，并建议使用演示录屏作为网络降级方案。
+访问说明：自定义域名仍由 Vercel 托管。受中国大陆跨境网络链路影响，部分网络环境下仍可能出现加载缓慢或无法访问；面试现场同时准备本地运行版本，并使用演示录屏作为网络降级方案。

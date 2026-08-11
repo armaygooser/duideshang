@@ -30,15 +30,17 @@ CORS_ORIGINS=https://<frontend-domain>
 
 ## 3. 当前生产地址
 
-- 前端：<https://duideshang-demo.vercel.app>
-- 后端：<https://duideshang-api.vercel.app>
-- 健康检查：<https://duideshang-api.vercel.app/health>
+- 前端：<https://armaygooser.site>
+- 后端：<https://api.armaygooser.site>
+- 健康检查：<https://api.armaygooser.site/health>
+- Vercel 前端备用地址：<https://duideshang-demo.vercel.app>
+- Vercel 后端备用地址：<https://duideshang-api.vercel.app>
 
 两个 Project 的 SSO Deployment Protection 已关闭，持有链接的面试官无需 Vercel 登录即可访问。以下非敏感变量已持久化到 Production 环境：
 
-- `duideshang-demo`: `NEXT_PUBLIC_API_BASE_URL=https://duideshang-api.vercel.app`
+- `duideshang-demo`: `NEXT_PUBLIC_API_BASE_URL=https://api.armaygooser.site`
 - `duideshang-api`: `MODEL_PROVIDER=local-demo`
-- `duideshang-api`: `CORS_ORIGINS=https://duideshang-demo.vercel.app`
+- `duideshang-api`: `CORS_ORIGINS=https://armaygooser.site`
 
 ## 4. 生产验证
 

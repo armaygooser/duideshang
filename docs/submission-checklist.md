@@ -2,7 +2,7 @@
 
 ## 邮件附件或链接
 
-- 在线演示链接：<https://duideshang-demo.vercel.app>
+- 在线演示链接：<https://armaygooser.site>
 - GitHub 仓库链接。
 - `docs/interview-report.md` 项目报告。
 - 备用的 60-90 秒录屏或关键截图。
