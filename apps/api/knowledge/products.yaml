@@ -1,0 +1,8 @@
+products:
+  - {id: acrylic_frontlit, name: 亚克力正面发光字, unit: ㎡, lighting: 正面发光}
+  - {id: stainless_backlit, name: 不锈钢背发光字, unit: ㎡, lighting: 背面光晕}
+  - {id: pvc_letters, name: PVC 字, unit: ㎡, lighting: 不发光}
+  - {id: lightbox, name: 灯箱门头, unit: ㎡, lighting: 整面发光}
+  - {id: aluminum_composite_panel, name: 铝塑板底板门头, unit: ㎡, lighting: 不发光}
+  - {id: neon_flex, name: 柔性霓虹灯字, unit: ㎡, lighting: 轮廓发光}
+  - {id: custom, name: 其他定制工艺, unit: ㎡, lighting: 按设计确认}

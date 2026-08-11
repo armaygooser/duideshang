@@ -1,0 +1,14 @@
+node_modules/
+.next/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.venv/
+*.pyc
+.env
+.env.local
+coverage/
+.vercel/
+tmp/
+参考资料/
+*.log

@@ -1,0 +1,11 @@
+covered_products:
+  - acrylic_frontlit
+  - stainless_backlit
+  - pvc_letters
+  - lightbox
+  - aluminum_composite_panel
+  - neon_flex
+custom_workflow:
+  - 未覆盖工艺不得由 Agent 编造单价或输出正式报价
+  - 报价引擎应返回公开市场参考区间，并要求商家按图纸与现场复核
+  - 商家可填写最终定制总价及备注，系统必须保留其手工录入来源

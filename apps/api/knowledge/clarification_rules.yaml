@@ -1,0 +1,13 @@
+required_high_risk_fields:
+  - product_type
+  - width_m
+  - height_m
+  - install_height_m
+  - font_style
+  - wall_material
+  - power_available
+  - deadline_type
+rules:
+  - {trigger: 左右, action: 要求确认精确尺寸}
+  - {trigger: 高级, action: 展示可理解的视觉风格选项}
+  - {trigger: 二楼, action: 要求离地实测高度}

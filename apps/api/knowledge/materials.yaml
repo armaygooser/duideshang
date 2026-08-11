@@ -1,0 +1,4 @@
+materials:
+  - {id: acrylic, name: 亚克力, common_specs: [3mm, 5mm], note: 演示规格，施工前复核}
+  - {id: stainless_steel, name: 不锈钢, common_specs: [拉丝, 镜面], note: 颜色与样板确认}
+  - {id: pvc, name: PVC, common_specs: [10mm, 20mm], note: 适合非发光字}

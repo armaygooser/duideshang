@@ -1,0 +1,39 @@
+currency: CNY
+label: 门店基准价目 v0.2
+updated_at: 2026-08-11
+products:
+  acrylic_frontlit: {name: 亚克力正面发光字, unit_price: 850, minimum: 2400}
+  stainless_backlit: {name: 不锈钢背发光字, unit_price: 1250, minimum: 3600}
+  pvc_letters: {name: PVC 字, unit_price: 420, minimum: 1400}
+  lightbox: {name: 灯箱门头, unit_price: 720, minimum: 2200}
+  aluminum_composite_panel: {name: 铝塑板底板门头, unit_price: 480, minimum: 1800}
+  neon_flex: {name: 柔性霓虹灯字, unit_price: 760, minimum: 2600}
+market_reference:
+  label: 公开市场参考区间（非正式报价）
+  reference_date: 2026-08-11
+  sources:
+    - name: 江苏省广告制作服务框架协议公开清单
+      url: https://www.ccgp-jiangsu.gov.cn/fileApi/320000/4d972eea90004b729eba655666670a26.pdf
+    - name: 公开供应商价格参考（制作安装的市场区间）
+      url: https://www.xujiacm.com/info/33787.html
+  unlisted_product:
+    unit_price_low: 500
+    unit_price_high: 1400
+    minimum_low: 2200
+    minimum_high: 5200
+    reasons:
+      - 所选工艺未纳入门店基准价目，需要按图纸、字数、厚度和发光方案复核
+      - 该区间仅用于客户预算沟通，不能替代商家正式报价
+fees:
+  removal: 450
+transport:
+  城区: 300
+  郊区: 600
+high_altitude: {threshold_m: 4, fee: 800}
+rush_multiplier: 1.2
+tax_rate: 0.06
+exclusions:
+  - 墙体结构加固与修复
+  - 新增配电箱及长距离电路改造
+  - 城管审批、物业押金及第三方收费
+  - 非常规夜间施工与封路费用
